@@ -1,0 +1,76 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    color: #000;
+}
+
+.custom-header {
+    background-color: #f1f1f1;
+}
+
+.custom-header h1 {
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.navbar {
+    font-size: 1.2rem;
+}
+
+.nav-link {
+    color: #000 !important;
+    padding: 0.5rem 1rem;
+}
+
+.nav-link:hover {
+    color: #000 !important;
+    transition: color 0.3s;
+}
+
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    border-bottom: 5px solid #343a40;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #000;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #000;
+}
+
+footer {
+    background-color: #1a1a2e;
+}
+
+footer h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+footer p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #f1f1f1;
+}
